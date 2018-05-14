@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title>Quote and Tweet</title>
+			
+			<link rel="stylesheet" href="css/bootstrap.min.css">
+			<link rel="stylesheet" href="css/font-awesome.css">
+			<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/main.css">
+			<!-- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+				
+			</script> -->
+		</head>
+
+		<body>
+			<div class="container-fluid Quote">
+				<div class="main">
+				<div class="row quoteJi">
+				<h1 id="firstAp">
+					‘‘
+				</h1>
+				<div id="quote-text">
+					This is a random quote.
+				</div>
+				<h1 id="secondAp">
+					’’
+				</h1>
+			</div>
+				<!--<a href="#" class="twittershare">
+					Share on Twitter
+				</a>
+				<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>-->
+
+				<div class="row footer">
+					<div class="col-sm-6" align="center">
+				<button class="btn" id ="generate" onclick="genRandom()">New Quote</button>
+			</div>
+			<div class="col-sm-6" align="center">
+				<a class="twitter-share-button twtbtn" id="shareTweet" onclick="share()" 
+					href="https://twitter.com/intent/tweet?text=This is a random quote" target="_blank" title="Share on Twitter">
+					<i class="fa fa-twitter" style="font-size: 250%;"></i>
+				</a>
+			</div>
+			</div>
+		</div>
+			</div>
+			<script src="js/bootstrap.min.js"></script>
+			<script type="text/javascript" src="js/main.js">
+			</script>
+
+		</body>
+		</html>
